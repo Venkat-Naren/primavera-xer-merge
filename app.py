@@ -224,7 +224,6 @@ if st.button("Merge Files"):
         "base_line_type": "BASE LINE TYPE",
         "sum_base_project_id": "SUM BASE PROJECT ID",
         "proj_id": "PROJ ID",
-``
     },
     inplace=True
 )
