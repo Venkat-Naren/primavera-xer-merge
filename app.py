@@ -173,7 +173,7 @@ if st.button("Merge Files"):
         # ==========================================
 
         output_columns = [
-            "project_filter",
+            "Project ID",
             "user_field_203",
             "task_name",
             "last_recalc_date",
