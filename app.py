@@ -223,7 +223,7 @@ if st.button("Merge Files"):
         "user_field_352": "WTG",
         "base_line_type": "BASE LINE TYPE",
         "sum_base_project_id": "SUM BASE PROJECT ID",
-        "proj_id: "PROJ_ID""
+        "proj_id: "PROJ_ID"
     },
     inplace=True
 )
