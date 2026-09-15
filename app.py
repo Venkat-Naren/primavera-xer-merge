@@ -173,26 +173,26 @@ if st.button("Merge Files"):
         # ==========================================
 
         output_columns = [
-            "user_field_352",
+            "project_filter",
+            "user_field_203",
+            "task_name",
+            "last_recalc_date",
+            "task_id",
+            "task_code",
             "start_date",
             "end_date",
-            "act_end_date",
             "act_start_date",
-            "task_code",
-            "proj_id",
-            "task_id",
-            "task_name",
-            "base_line_type",
-            "base_end_date",
-            "project_filter",
-            "base_start_date",
-            "last_recalc_date",
-            "actv_code_scope_for_s_curve_id",
-            "user_field_203",
-            "new_bl_project_end",
-            "sum_base_project_id",
+            "act_end_date",
             "new_project_start",
-            "phys_complete_pct"
+            "new_bl_project_end",
+            "base_start_date",
+            "base_end_date",
+            "phys_complete_pct",
+            "actv_code_scope_for_s_curve_id",
+            "user_field_352",
+            "base_line_type",
+            "sum_base_project_id",
+            "proj_id",
         ]
 
         # Create missing columns as blank
