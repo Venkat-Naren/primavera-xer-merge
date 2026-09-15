@@ -202,6 +202,32 @@ if st.button("Merge Files"):
 
         result_df = merged_df[output_columns]
 
+        result_df.rename(
+    columns={
+        "Project ID": "Project ID",
+        "user_field_203": "TKII SAP WBS CODE",
+        "task_name": "ACTIVITY NAME",
+        "last_recalc_date": "LAST RECALC DATE",
+        "task_id": "ACTIVITY ID",
+        "task_code": "TASK CODE",
+        "start_date": "START",
+        "end_date": "FINISH",
+        "act_start_date": "START ACT",
+        "act_end_date": "END ACT",
+        "new_project_start": "NEW BL PROJECT START",
+        "new_bl_project_end": "NEW BL PROJECT END",
+        "base_start_date": "BL PROJECT START",
+        "base_end_date": "BL PROJECT END",
+        "phys_complete_pct": "PHYSICAL PERCENT COMPLETION",
+        "actv_code_scope_for_s_curve_id": "SCOPE OF S-CURVE",
+        "user_field_352": "WTG",
+        "base_line_type": "BASE LINE TYPE",
+        "sum_base_project_id": "SUM BASE PROJECT ID",
+        "proj_id: "PROJ_ID""
+    },
+    inplace=True
+)
+
         # ==========================================
         # Delete First Data Row
         # ==========================================
