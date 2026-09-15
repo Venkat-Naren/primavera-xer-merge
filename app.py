@@ -192,7 +192,7 @@ if st.button("Merge Files"):
             "user_field_352",
             "base_line_type",
             "sum_base_project_id",
-            "proj_id",
+            "proj_id"
         ]
 
         # Create missing columns as blank
