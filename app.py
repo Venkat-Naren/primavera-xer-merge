@@ -191,8 +191,7 @@ if st.button("Merge Files"):
             "actv_code_scope_for_s_curve_id",
             "user_field_352",
             "base_line_type",
-            "sum_base_project_id",
-            "proj_id"
+            "sum_base_project_id"
         ]
 
         # Create missing columns as blank
@@ -223,7 +222,6 @@ if st.button("Merge Files"):
         "user_field_352": "WTG",
         "base_line_type": "BASE LINE TYPE",
         "sum_base_project_id": "SUM BASE PROJECT ID",
-        "proj_id": "PROJ ID",
     },
     inplace=True
 )
